@@ -1,5 +1,35 @@
 package it.ioprogrammatore.java.module.oop;
 
+
+/*
+Exercise: Pokémon Battle Simulation
+Objective: Understand and implement key OOP principles using a Pokémon battle simulation.
+
+Problem: Write a Java program that models a simple Pokémon battle. You need to create a base class Pokemon, and several subclasses representing different Pokémon types. Each Pokémon should have attributes like name, type, hit points (HP), and attack damage. You will also implement a battle mechanism where Pokémon can attack each other.
+
+Steps:
+Create the base class Pokemon:
+
+Properties: String name, String type, int hp, int attackDamage
+Constructor: A constructor that initializes the properties.
+Methods: void attack(Pokemon opponent), void takeDamage(int damage), and void displayStatus()
+Create subclasses for different Pokémon types:
+
+FirePokemon
+WaterPokemon
+GrassPokemon
+Each subclass should call the superclass constructor and may have additional properties or methods specific to its type.
+Implement the battle mechanism:
+
+A method to simulate a battle where two Pokémon attack each other in turns until one of them faints (HP reaches 0).
+Write a main method to demonstrate the battle:
+
+Create instances of different Pokémon types.
+Simulate a battle between two Pokémon and display the status after each attack.
+
+ */
+
+
 abstract class Pokemon {
     protected String name;
     protected String type;
